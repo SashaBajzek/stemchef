@@ -1,0 +1,24 @@
+.Header {
+	align-content: center;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+.Header__logo {
+	font-family: 'jacques_francois_shadowRg', sans-serif;
+	font-size: 56px;
+	margin: 0;
+	text-decoration: none;
+}
+
+.Header__menu {
+	display: flex;
+	list-style: none;
+}
+
+.Header__menu a {
+	font-size: 16px;
+	padding: 0 10px;
+	text-decoration: none;
+}
