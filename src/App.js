@@ -4,16 +4,18 @@ import './styles/App.scss';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="Home">
         <h1>Scientific Cooking for kids</h1>
 				<button>Pre-order Limited Edition DIY Kits!</button>
 				<section>
+					<div className="Home__hero_image"></div>
 					<p>StemChef was founded with the vision to inspire little ones to love and appreciate science and math through "experimental" cooking.</p>
 					<p>Our motto is: Feed your brain through your tummy!</p>
 					<p>We turn everyday cooking and eating into curiosity-filled culinary experiments.</p>	
 					<p>Kids get to wear the chef's hat literally and figuratively.</p>
 					<p>Every class is an enriching experience complete with a new recipe, a new scientific and a new mathematical concept.</p>
 				</section>
+				<div className="Home__science-image"></div>
 				<section>
 					<h2>WHAT?</h2>
 					<p>A new approach to STEM learning for kids through food and cooking</p>
@@ -29,6 +31,7 @@ class App extends Component {
 					<p>Imagine teaching a 6 year old Calculus? Or Organic chemistry? Or Thermodynamics?</p>
 					<p>Now imagine this being done by a team of five and seven year old scientists in chef hats while building yummy recipes and  getting messy.</p>
 					<p>Enter StemChef</p>
+					<div className="Home__chocolate-image"></div>
 				</section>
 				<section>
 					<h2>HOW</h2>

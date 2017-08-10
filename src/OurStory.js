@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
+import './styles/OurStory.scss';
 
 class OurStory extends Component {
   render() {
     return (
       <div className="OurStory">
         <h1>Dr. Ashie, Founder & CEO</h1>
+				<div className="OurStory__image"></div>
 				<p>From a Bio-scientist to a new Mom to a scientist-chef. It has been quite a journey – it wasn’t until my daughter was four years old that I discovered I had a passion for teaching science to kids as much as I had a passion for hard-core science. And it all started at the dinner table......</p>
 				<p>Every evening at dinnertime Nyneisha would ask me questions about the food in front of her. And every evening I ended up demonstrating a lesson in science or math or both in explanation to her question. Innovative STEM teaching became my part-time job besides being a full-time scientist at UC Berkeley. Those who were privy to this demonstration constantly asked me 
 				</p>

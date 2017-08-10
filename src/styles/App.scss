@@ -1,24 +1,26 @@
-.App {
-  text-align: center;
+.Home__hero_image {
+	background: url(../images/kids--large_hats.jpeg) no-repeat;
+	background-position: center center;
+	background-size: contain;
+	height: 250px;
+	margin: 0 auto;
+	width: 400px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.Home__science-image {
+	background: url(../images/pyrex.jpeg) no-repeat;
+	background-position: center center;
+	background-size: contain;
+	height: 200px;
+	margin: 0 auto;
+	width: 200px;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.Home__chocolate-image {
+	background: url(../images/chocolate.jpeg) no-repeat;
+	background-position: center center;
+	background-size: contain;
+	height: 50px;
+	margin: 0 auto;
+	width: 200px;
 }
