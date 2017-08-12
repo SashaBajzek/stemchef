@@ -6,11 +6,11 @@ class Header extends Component {
   render() {
     return (
       <div className="Header">
-        <h1 className="Header__logo"><NavLink to="/">StemChef</NavLink></h1>
+        <NavLink to="/" className="Header__logo"><div className="Header__logo-image"></div><h1 className="Header__logo-text">StemChef</h1></NavLink>
 				<ul className="Header__menu">
-					<li><NavLink to="/summer-camp-2017">SUMMER CAMP 2017</NavLink></li>
-					<li><NavLink to="/our-story">OUR STORY</NavLink></li>
-					<li><NavLink to="/contact">CONTACT</NavLink></li>
+					<li><NavLink to="/our-story" className="Header__navItem" activeClassName="Header__navItem--selected">OUR STORY</NavLink></li>
+					<li><NavLink to="/summer-camp-2017" className="Header__navItem" activeClassName="Header__navItem--selected">SUMMER CAMP</NavLink></li>
+					<li><NavLink to="/contact" className="Header__navItem" activeClassName="Header__navItem--selected">CONTACT</NavLink></li>
 				</ul>
       </div>
     );

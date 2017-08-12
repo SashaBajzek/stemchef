@@ -1,12 +1,4 @@
-@font-face {
-    font-family: 'love_ya_like_a_sisterregular';
-    src: url('loveyalikeasister-webfont.woff2') format('woff2'),
-         url('loveyalikeasister-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
+@import './variables.scss';
 
 @font-face {
     font-family: 'love_ya_like_a_sister_snormal';
@@ -17,20 +9,13 @@
 
 }
 
-@font-face {
-    font-family: 'jacques_francois_shadowRg';
-    src: url('jacquesfrancoisshadow-regular-webfont.woff2') format('woff2'),
-         url('jacquesfrancoisshadow-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 * {
 	box-sizing: border-box;
 }
 
 body {
+	background-color: $white;
+	color: $darkteal;
   margin: 0;
   padding: 0;
   font-family: 'Arial', sans-serif;
@@ -39,6 +24,6 @@ body {
 h1,
 h2,
 h3 {
-	font-family: 'love_ya_like_a_sisterregular', 'love_ya_like_a_sister_snormal', sans-serif;
+	font-family: 'love_ya_like_a_sister_snormal', sans-serif;
 }
 

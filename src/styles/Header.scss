@@ -1,24 +1,63 @@
+@import './variables.scss';
+
 .Header {
-	align-content: center;
-	align-items: center;
-	display: flex;
-	justify-content: space-between;
-}
+	background-color: $salmon;
+	
+	&__logo {
+		align-items: center;
+		display: flex;
+		justify-content: center;
+		padding: 5px 0 6px;
+		text-decoration: none;
+		
+		&-image {
+			background: url('../StemChefLogo.svg') no-repeat;
+			height: 55px;
+			width: 55px;
+		} 
+		
+		&-text {
+			color: $navy;
+			font-family: 'Jacques Francois', serif;
+			font-size: 42px;
+			margin: 0;
+			padding-left: 10px;
+			text-decoration: none;
+		}
+	}
 
-.Header__logo {
-	font-family: 'jacques_francois_shadowRg', sans-serif;
-	font-size: 56px;
-	margin: 0;
-	text-decoration: none;
-}
-
-.Header__menu {
-	display: flex;
-	list-style: none;
-}
-
-.Header__menu a {
-	font-size: 16px;
-	padding: 0 10px;
-	text-decoration: none;
-}
+	&__menu {
+		background-color: $lime;
+		display: flex;
+		justify-content: space-between;
+		list-style: none;
+		margin: 0 auto;
+		padding: 0;
+	}
+	
+	& li {
+		flex-grow: 1;
+	}
+	
+	&__navItem {
+		border-bottom: 2px solid transparent;
+		color: $navy;
+		display: block;
+		font-size: 16px;
+		line-height: 16px;
+		padding: 4px 0 1px;
+		text-align: center;
+		text-decoration: none;
+	}
+	
+	&__navItem:hover,
+	&__navItem:focus, {
+		border-bottom: 2px solid $darkteal;
+	}
+	
+	&__navItem--selected {
+		background-color: $teal;
+		border-bottom: 2px solid $darkteal;
+	}
+	
+} 

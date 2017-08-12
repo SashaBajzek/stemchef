@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import './styles/App.scss';
+import './styles/Home.scss';
 
-class App extends Component {
+class Home extends Component {
   render() {
     return (
       <div className="Home">
-        <h1>Scientific Cooking for kids</h1>
+        <h1>Scientific Cooking for Kids</h1>
 				<button>Pre-order Limited Edition DIY Kits!</button>
-				<section>
+				<section className="Home__hero">
 					<div className="Home__hero_image"></div>
 					<p>StemChef was founded with the vision to inspire little ones to love and appreciate science and math through "experimental" cooking.</p>
 					<p>Our motto is: Feed your brain through your tummy!</p>
@@ -46,4 +46,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Home;

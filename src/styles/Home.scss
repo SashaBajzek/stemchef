@@ -1,0 +1,44 @@
+@import './variables.scss';
+
+.Home {
+	
+	& h1 {
+		font-size: 22px;
+		text-align: center;
+	}
+	
+	& button {
+		display: block;
+		margin: 0 auto;
+	}
+	
+	&__hero_image {
+		background: url(../images/kids--large_hats.jpeg) no-repeat;
+		background-position: center center;
+		background-size: contain;
+		height: 250px;
+		margin: 0 auto;
+		width: 400px;
+	}
+
+	&__science-image {
+		background: url(../images/pyrex.jpeg) no-repeat;
+		background-position: center center;
+		background-size: contain;
+		height: 200px;
+		margin: 0 auto;
+		width: 200px;
+	}
+
+	&__chocolate-image {
+		background: url(../images/chocolate.jpeg) no-repeat;
+		background-position: center center;
+		background-size: contain;
+		height: 50px;
+		margin: 0 auto;
+		width: 200px;
+	}
+	
+	
+}
+
