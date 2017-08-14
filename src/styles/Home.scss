@@ -1,6 +1,8 @@
 @import './variables.scss';
 
 .Home {
+	flex: 1 0 auto; /* Sticky Footer */
+	padding: 0 10px;
 	
 	& h1 {
 		font-size: 22px;

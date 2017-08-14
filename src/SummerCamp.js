@@ -8,11 +8,6 @@ class SummerCamp extends Component {
       <div className="SummerCamp">
         <h1>Summer Camp </h1>
 				<section>
-					<div className="SummerCamp__image SummerCamp__camp-image"></div>
-					<button>Sign up for Summer </button>
-					<p>We have delicious programs in store for our young campers. Young chefs will explore questions in chemistry, physics,    , architecture and more as they solve yummy challenges mathematically while whipping up delicious edible experiments.</p>
-				</section>
-				<section>
 					<h3>Week 1: Young Chemists: June 19 - Jun 23</h3>
 					<div className="SummerCamp__image SummerCamp__week-1-image"></div>
 					<p>Ever wondered if learning organic chemistry could have been more fun - or rather tasty?? Well kids are just about to   discover that and plenty more fizz as we take a trip to chemistry town with edible substances. Muah-ha-ha we are mad scientists disguised as chefs!!</p>

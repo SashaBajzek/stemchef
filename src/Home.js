@@ -1,8 +1,24 @@
 import React, { Component } from 'react';
+import Youtube from 'react-youtube';
 import './styles/Home.scss';
 
 class Home extends Component {
+	_onReady(event) {
+    // access to player in all event handlers via event.target
+    event.target.pauseVideo();
+  }
+	
+	
   render() {
+		const opts = {
+      height: '390',
+      width: '640',
+      playerVars: { // https://developers.google.com/youtube/player_parameters
+        autoplay: 1
+      }
+    };
+		
+		
     return (
       <div className="Home">
         <h1>Scientific Cooking for Kids</h1>
@@ -40,7 +56,9 @@ class Home extends Component {
 					<p>The working principles behind these rather common activities (along with some very uncommon recipes we have up our sleeve) will be questioned and understood by your very own little chefs after our program.</p>
 					<p>We don’t promise that they will learn the first law of thermodynamics verbatim but we do promise they will understand the concept behind it and be thirsty for the second and third and perhaps be enroute to discovering the fifth!</p>
 				</section>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/G8Q4YfWwRTE" frameborder="0" allowfullscreen></iframe>
+		
+				<Youtube videoId="G8Q4YfWwRTE" opts={opts} onReady={this._onReady} />
+
       </div>
     );
   }

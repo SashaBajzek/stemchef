@@ -1,8 +1,11 @@
 @import './variables.scss';
 
-.Header {
+.Footer {
 	background-color: $salmon;
-	flex-shrink: 0; /* Sticky Footer */
+	
+	&__nav {
+	
+	}
 	
 	&__logo {
 		align-items: center;
@@ -28,9 +31,6 @@
 	}
 
 	&__menu {
-		background-color: $lime;
-		display: flex;
-		justify-content: space-between;
 		list-style: none;
 		margin: 0 auto;
 		padding: 0;
@@ -46,6 +46,7 @@
 		display: block;
 		font-size: 16px;
 		line-height: 16px;
+		margin: 5px auto;
 		padding: 4px 0 1px;
 		text-align: center;
 		text-decoration: none;
@@ -61,45 +62,11 @@
 		border-bottom: 2px solid $darkteal;
 	}
 	
-} 
-
-
-
-/* Media Sizes */
-
-@media (min-width: $screen-sm-min) {
-	.Header {
-		display: flex;
-		justify-content: space-between;
-		
-		&__logo {
-		
-			&-image {
-				background: url('../StemChefLogo.svg') no-repeat;
-				height: 65px;
-				width: 65px;
-			} 
-
-			&-text {
-				font-size: 50px;
-			}
-		}
-	
-		&__menu {
-			align-items: center;
-			background-color: $salmon;
-			margin: 0;
-		}
-		
-		&__navItem {
-			padding: 4px 15px 1px;
-		}
-		
-		&__navItem--selected {
-			background-color: $salmon;
-			font-weight: bold;
-		}
-
+	&__copyright {
+		background-color: $lime;
+		display: block;
+		text-align: center;
 	}
+	
 	
 }
