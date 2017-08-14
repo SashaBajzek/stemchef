@@ -102,14 +102,30 @@
 		}
 		
 		&__navItem {
+			border-bottom: none;
 			padding: 4px 15px 1px;
 		}
 		
 		&__navItem--selected {
 			background-color: $salmon;
+			border-bottom: none;
 			font-weight: bold;
 		}
-
+	
+		&__navItem:hover,
+		&__navItem:focus, {
+			border-bottom: none;
+		}
+		
+		&__underline {
+			border-bottom: 2px solid transparent;
+		}
+		
+		&__navItem--selected .Header__underline,
+		&__underline:hover,
+		&__underline:focus {
+			border-bottom: 2px solid $darkteal;
+		}
 	}
 	
 }
