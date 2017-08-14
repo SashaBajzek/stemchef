@@ -4,6 +4,10 @@
 	background-color: $salmon;
 	flex-shrink: 0; /* Sticky Footer */
 	
+	&__container {
+		max-width: $screen-sm-min - 50px;
+	}
+	
 	&__logo {
 		align-items: center;
 		display: flex;
@@ -69,8 +73,13 @@
 
 @media (min-width: $screen-sm-min) {
 	.Header {
-		display: flex;
-		justify-content: space-between;
+	
+		&__container {
+			display: flex;
+			justify-content: space-between;
+			margin: 0 auto;
+			max-width: $screen-sm-min - 50px;
+		}
 		
 		&__logo {
 		
@@ -102,4 +111,24 @@
 
 	}
 	
+}
+
+/* Desktop Screen Size */
+
+@media (min-width: $screen-md-min) {
+	.Header {
+		&__container {
+			max-width: $screen-md-min - 50px;
+		}
+	}
+}
+
+/* XL Desktop Screen Size */
+
+@media (min-width: $screen-lg-min) {
+	.Header {
+		&__container {
+			max-width: $screen-md-min;
+		}
+	}
 }

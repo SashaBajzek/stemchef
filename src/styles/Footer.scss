@@ -3,6 +3,11 @@
 .Footer {
 	background-color: $salmon;
 	
+	&__container {
+		margin: 0 auto;
+		max-width: $screen-sm-min - 50px;
+	}
+	
 	&__nav {
 	
 	}
@@ -69,4 +74,25 @@
 	}
 	
 	
+}
+
+/* Desktop Screen Size */
+
+@media (min-width: $screen-md-min) {
+	.Footer {
+		&__container {
+			max-width: $screen-md-min - 50px;
+		}
+	}
+}
+
+
+/* XL Desktop Screen Size */
+
+@media (min-width: $screen-md-min) {
+	.Footer {
+		&__container {
+			max-width: $screen-md-min;
+		}
+	}
 }

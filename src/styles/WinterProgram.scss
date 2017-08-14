@@ -1,27 +1,16 @@
 @import './variables.scss';
 
-.OurStory {
-	flex: 1 0 auto; /* Sticky Footer */
-	
+.WinterProgram {
 	&__container {
 		margin: 0 auto;
 		max-width: $screen-sm-min - 50px;
-	}
-	
-	&__image {
-		background: url(../images/me.jpeg) no-repeat;
-		background-position: center center;
-		background-size: contain;
-		height: 250px;
-		margin: 0 auto;
-		width: 400px;
 	}
 }
 
 /* Desktop Screen Size */
 
 @media (min-width: $screen-md-min) {
-	.OurStory {
+	.WinterProgram {
 		&__container {
 			max-width: $screen-md-min - 50px;
 		}
@@ -32,7 +21,7 @@
 /* XL Desktop Screen Size */
 
 @media (min-width: $screen-md-min) {
-	.OurStory {
+	.WinterProgram {
 		&__container {
 			max-width: $screen-md-min;
 		}

@@ -10,41 +10,64 @@
 
 .SummerCamp {
 	padding: 0 10px;
+	
+	&__container {
+		margin: 0 auto;
+		max-width: $screen-sm-min - 50px;
+	}
+	
+	&__camp-image {
+		background: url(../images/kids--celebrating.jpeg) no-repeat;
+	}
+
+	&__week-1-image {
+		background: url(../images/Camp1-Fizz.jpeg) no-repeat;
+	}
+
+	&__week-2-image {
+		background: url(../images/Camp2-Icecream.jpeg) no-repeat;
+	}
+
+	&__week-4-image {
+		background: url(../images/Camp4-Chocolate.jpeg) no-repeat;
+	}
+
+	&__image {
+		background-position: center center;
+		background-size: contain;
+		height: 250px;
+		margin: 0 auto;
+		width: 400px;
+	}
+
+	& section:nth-child(even) {
+		background-color: $babyyellow;
+	}
+
+	& section:nth-child(odd) {
+		background-color: $lime;
+	}
 }
 
-.SummerCamp__camp-image {
-	background: url(../images/kids--celebrating.jpeg) no-repeat;
+
+
+/* Desktop Screen Size */
+
+@media (min-width: $screen-md-min) {
+	.SummerCamp {
+		&__container {
+			max-width: $screen-md-min - 50px;
+		}
+	}
 }
 
-.SummerCamp__week-1-image {
-	background: url(../images/Camp1-Fizz.jpeg) no-repeat;
-}
 
-.SummerCamp__week-2-image {
-	background: url(../images/Camp2-Icecream.jpeg) no-repeat;
-}
+/* XL Desktop Screen Size */
 
-.SummerCamp__week-4-image {
-	background: url(../images/Camp4-Chocolate.jpeg) no-repeat;
-}
-
-.SummerCamp__image {
-	background-position: center center;
-	background-size: contain;
-	height: 250px;
-	margin: 0 auto;
-	width: 400px;
-}
-
-.SummerCamp section {
-	margin: 0 auto;
-	width: 60%;
-}
-
-.SummerCamp section:nth-child(even) {
-	background-color: $babyyellow;
-}
-
-.SummerCamp section:nth-child(odd) {
-	background-color: $lime;
+@media (min-width: $screen-md-min) {
+	.SummerCamp {
+		&__container {
+			max-width: $screen-md-min;
+		}
+	}
 }

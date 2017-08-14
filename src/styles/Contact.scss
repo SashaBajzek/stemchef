@@ -2,5 +2,33 @@
 
 .Contact {
 	flex: 1 0 auto; /* Sticky Footer */
-	padding: 0 10px;
+	
+	&__container {
+			margin: 0 auto;
+			max-width: $screen-sm-min - 50px;
+		}
+}
+
+
+
+
+/* Desktop Screen Size */
+
+@media (min-width: $screen-md-min) {
+	.Contact {
+		&__container {
+			max-width: $screen-md-min - 50px;
+		}
+	}
+}
+
+
+/* XL Desktop Screen Size */
+
+@media (min-width: $screen-md-min) {
+	.Contact {
+		&__container {
+			max-width: $screen-md-min;
+		}
+	}
 }
