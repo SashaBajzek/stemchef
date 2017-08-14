@@ -3,6 +3,11 @@
 .Programs {
 	flex: 1 0 auto; /* Sticky Footer */
 	
+	& h1 {
+		margin-bottom: 0;
+		text-align: center;
+	}
+	
 	&__nav {
 		display: flex;
 		justify-content: space-between;
@@ -11,12 +16,12 @@
 	}
 	
 	&__image {
-		background: url(../images/kids--celebrating.jpeg) no-repeat;
+		background: url(../images/kids--large_hats.jpeg) no-repeat;
 		background-position: center center;
-		background-size: contain;
-		height: 150px;
+		background-size: cover;
+		height: 300px;
 		margin: 0 auto;
-		width: 200px;
+		width: 600px;
 	}
 	
 

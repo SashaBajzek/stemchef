@@ -6,7 +6,7 @@ class SummerCamp extends Component {
   render() {
     return (
       <div className="SummerCamp">
-        <h1>Summer Camp </h1>
+        <h1>Summer Camp 2017</h1>
 				<section>
 					<h3>Week 1: Young Chemists: June 19 - Jun 23</h3>
 					<div className="SummerCamp__image SummerCamp__week-1-image"></div>
@@ -37,10 +37,6 @@ class SummerCamp extends Component {
 					<div className="mapContainer">
 						<SimpleMap/>
 					</div>
-					<h3>Price</h3>
-					<p>Regular until June 12th : $225/week</p>
-					<p>Last minute after June 12th : $250/week</p>
-					<p>!!!! Limited spots remaining. Register now!!!!!</p>
 				</section>
 				<section>
 					<p>Every child is different and we appreciate the uniqueness and strength brought by each individual.</p>

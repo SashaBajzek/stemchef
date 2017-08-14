@@ -33,7 +33,7 @@ ReactDOM.render(
 							<Route path="/programs/summer-camp" component={SummerCamp} />
 							<Route path="/programs/after-school" component={AfterSchool} />
 							<Route path="/programs/winter-program" component={WinterProgram} />
-							<Route path="/programs*" component={SummerCamp} />
+							<Route path="/programs*" component={AfterSchool} />
 						</Switch>
 					</Programs>
 			
