@@ -5,6 +5,7 @@
 	flex-shrink: 0; /* Sticky Footer */
 	
 	&__container {
+		margin: 0 auto;
 		max-width: $screen-sm-min - 50px;
 	}
 	
