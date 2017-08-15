@@ -2,6 +2,7 @@
 
 .OurStory {
 	flex: 1 0 auto; /* Sticky Footer */
+	margin-top: $header-height-xs-min;
 	
 	&__container {
 		margin: 0 auto;
@@ -17,6 +18,16 @@
 		width: 400px;
 	}
 }
+
+
+/* Media Sizes */
+
+@media (min-width: $screen-sm-min) {
+	.OurStory {
+		margin-top: $header-height-sm-min;
+	}
+}
+
 
 /* Desktop Screen Size */
 

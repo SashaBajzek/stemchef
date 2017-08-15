@@ -2,6 +2,7 @@
 
 .Home {
 	flex: 1 0 auto; /* Sticky Footer */
+	margin-top: $header-height-xs-min;
 	padding: 0 10px;
 	
 	&__container {
@@ -47,6 +48,14 @@
 	}
 	
 	
+}
+
+/* Media Sizes */
+
+@media (min-width: $screen-sm-min) {
+	.Home {
+		margin-top: $header-height-sm-min;
+	}
 }
 
 /* Desktop Screen Size */

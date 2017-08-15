@@ -1,6 +1,8 @@
 @import './variables.scss';
 
 .AfterSchool {
+	flex: 1 0 auto; /* Sticky Footer */
+	
 	&__container {
 		margin: 0 auto;
 		max-width: $screen-sm-min - 50px;

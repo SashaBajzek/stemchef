@@ -1,71 +1,6 @@
 @import './variables.scss';
 
 .Footer {
-	background-color: $salmon;
-	
-	&__container {
-		margin: 0 auto;
-		max-width: $screen-sm-min - 50px;
-	}
-	
-	&__nav {
-	
-	}
-	
-	&__logo {
-		align-items: center;
-		display: flex;
-		justify-content: center;
-		padding: 5px 0 6px;
-		text-decoration: none;
-		
-		&-image {
-			background: url('../StemChefLogo.svg') no-repeat;
-			height: 55px;
-			width: 55px;
-		} 
-		
-		&-text {
-			color: $navy;
-			font-family: 'Jacques Francois', serif;
-			font-size: 42px;
-			margin: 0;
-			padding-left: 10px;
-			text-decoration: none;
-		}
-	}
-
-	&__menu {
-		list-style: none;
-		margin: 0 auto;
-		padding: 0;
-	}
-	
-	& li {
-		flex-grow: 1;
-	}
-	
-	&__navItem {
-		border-bottom: 2px solid transparent;
-		color: $navy;
-		display: block;
-		font-size: 16px;
-		line-height: 16px;
-		margin: 5px auto;
-		padding: 4px 0 1px;
-		text-align: center;
-		text-decoration: none;
-	}
-	
-	&__navItem:hover,
-	&__navItem:focus, {
-		border-bottom: 2px solid $darkteal;
-	}
-	
-	&__navItem--selected {
-		background-color: $teal;
-		border-bottom: 2px solid $darkteal;
-	}
 	
 	&__copyright {
 		background-color: $lime;
@@ -74,25 +9,4 @@
 	}
 	
 	
-}
-
-/* Desktop Screen Size */
-
-@media (min-width: $screen-md-min) {
-	.Footer {
-		&__container {
-			max-width: $screen-md-min - 50px;
-		}
-	}
-}
-
-
-/* XL Desktop Screen Size */
-
-@media (min-width: $screen-md-min) {
-	.Footer {
-		&__container {
-			max-width: $screen-md-min;
-		}
-	}
 }

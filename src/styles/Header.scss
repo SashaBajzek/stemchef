@@ -2,7 +2,11 @@
 
 .Header {
 	background-color: $salmon;
-	flex-shrink: 0; /* Sticky Footer */
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	
 	
 	&__container {
 		margin: 0 auto;
