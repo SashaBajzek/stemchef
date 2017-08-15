@@ -1,9 +1,19 @@
 @import './variables.scss';
 
 .Footer {
+	background-color: $brown;
+	padding: 8px 0;
+	
+	&__logo-image {
+			background: url('../StemChefLogo.svg') no-repeat;
+			margin: 0 auto;
+			height: 40px;
+			width: 40px;
+		}
 	
 	&__copyright {
-		background-color: $lime;
+		
+		color: $white;
 		display: block;
 		text-align: center;
 	}

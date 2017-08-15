@@ -7,6 +7,7 @@ class Footer extends Component {
   render() {
     return (
       <div className="Footer">
+				<div className="Footer__logo-image"></div>
 				<small className="Footer__copyright">&copy; {this.year} StemChef</small>
       </div>
     );
