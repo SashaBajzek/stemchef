@@ -7,6 +7,29 @@
 		margin: 0 auto;
 		max-width: $screen-sm-min - 50px;
 	}
+	
+	&__title {
+		text-align: center;
+	}
+	
+	&__section {
+		background-color: $lime;
+		margin-bottom: 30px;
+		padding: 10px 10px;
+	}
+
+}
+
+/* Media Sizes */
+
+@media (min-width: $screen-sm-min) {
+	.AfterSchool {
+		&__section {
+			border-radius: 20px;
+			margin-bottom: 30px;
+			padding: 10px 50px;
+		}
+	}
 }
 
 /* Desktop Screen Size */
@@ -15,6 +38,11 @@
 	.AfterSchool {
 		&__container {
 			max-width: $screen-md-min - 50px;
+		}
+		
+		&__content {
+			display: flex;
+			justify-content: space-between;
 		}
 	}
 }
