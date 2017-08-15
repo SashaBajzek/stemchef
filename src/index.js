@@ -9,8 +9,8 @@ import Home from './Home';
 import OurStory from './OurStory';
 import Programs from './Programs';
 import ScrollToTop from './ScrollToTop';
-import SummerCamp from './SummerCamp';
-import WinterProgram from './WinterProgram';
+/*import SummerCamp from './SummerCamp';*/
+/*import WinterProgram from './WinterProgram';*/
 
 import {
 	BrowserRouter as Router,
@@ -30,9 +30,7 @@ ReactDOM.render(
 	
 					<Programs>
 						<Switch>
-							<Route path="/programs/summer-camp" component={SummerCamp} />
 							<Route path="/programs/after-school" component={AfterSchool} />
-							<Route path="/programs/winter-program" component={WinterProgram} />
 							<Route path="/programs*" component={AfterSchool} />
 						</Switch>
 					</Programs>

@@ -9,7 +9,7 @@ class Header extends Component {
 				<div className="Header__container">
 					<NavLink to="/" className="Header__logo"><div className="Header__logo-image"></div><h1 className="Header__logo-text">StemChef</h1></NavLink>
 					<ul className="Header__menu">
-						<li><NavLink to="/programs/after-school" className="Header__navItem" activeClassName="Header__navItem--selected"><span className="Header__underline">PROGRAMS</span></NavLink></li>
+						<li><NavLink to="/programs/after-school" className="Header__navItem" activeClassName="Header__navItem--selected"><span className="Header__underline">PROGRAM</span></NavLink></li>
 						<li><NavLink to="/our-story" className="Header__navItem" activeClassName="Header__navItem--selected"><span className="Header__underline">OUR STORY</span></NavLink></li>
 						<li><NavLink to="/contact" className="Header__navItem" activeClassName="Header__navItem--selected"><span className="Header__underline">CONTACT</span></NavLink></li>
 					</ul>
