@@ -5,9 +5,13 @@ class Contact extends Component {
   render() {
     return (
       <div className="Contact">
+				<div className="Contact__hero">
+					<div className="Contact__modal">
+						<h1>Contact</h1>
+						<p>Form goes here</p>
+					</div>
+				</div>
 				<div className="Contact__container">
-					<h1>Contact</h1>
-
 					<section>
 						<h2>After School Program:</h2>
 						<p>We are currently offering our program at various after school facilities in Danville, Dublin, Livermore, Pleasanton and San Ramon. Contact your child's after school provider to register.</p>

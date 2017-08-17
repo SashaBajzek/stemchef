@@ -3,7 +3,46 @@
 .Home {
 	flex: 1 0 auto; /* Sticky Footer */
 	margin-top: $header-height-xs-min;
-	padding: 0 10px;
+	
+	&__hero {
+		align-items: center;
+		background: url(../images/cookies-500px.png) no-repeat;
+		background-position: center;
+		background-size: cover;
+		display: flex;
+		justify-content: center;
+		height: 400px;
+		width: 100%;
+	}
+	
+	&__modal {
+		background: $overlay-grey;
+		border-radius: 20px;
+		color: $white;
+		height: 300px;
+		padding: 10px 30px;
+		width: 500px;
+	}
+	
+	&__cta {
+		background: linear-gradient(to bottom, $teal-light, $teal);
+		border: 1px solid $blackbrown-transparent;
+		border-radius: 8px;
+		color: $blackbrown;
+		font-size: 18px;
+		margin: 0 auto;
+		padding: 6px 20px;
+		text-decoration: none;
+	}
+	
+	&__cta:active {
+		box-shadow: inset 1px 1px 1px rgba(0, 0, 0, .5), inset -1px -1px 1px rgba(255, 255, 255, .5);
+	}
+	
+	& h1 {
+		margin: 0;
+		text-align: center;
+	}
 	
 	&__container {
 		margin: 0 auto;
@@ -11,7 +50,7 @@
 	}
 	
 	& h1 {
-		font-size: 22px;
+		font-size: 32px;
 		text-align: center;
 	}
 	
@@ -20,6 +59,7 @@
 		margin: 0 auto;
 	}
 	
+	/*
 	&__hero_image {
 		background: url(../images/kids--celebrating.jpeg) no-repeat;
 		background-position: center center;
@@ -47,7 +87,7 @@
 		width: 200px;
 	}
 	
-	
+	*/
 }
 
 /* Media Sizes */

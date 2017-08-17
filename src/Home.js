@@ -8,15 +8,15 @@ class Home extends Component {
   render() {
     return (
       <div className="Home">
-				<div className="Home__container">
-					<h1>Scientific Cooking for Kids</h1>
-					<NavLink to="/programs/after-school" className="Home__navItem">Register for Fall Enrichment</NavLink>
-					<section className="Home__hero">
-						<div className="Home__hero_image"></div>
-						<p>StemChef was founded with the vision to inspire little ones to love and appreciate science and math through "experimental" cooking.</p>
-						<p>We turn everyday cooking and eating into curiosity-filled culinary experiments, where kids get to wear the chef's hat literally and figuratively.</p>
-						<p>Every class is an enriching experience complete with a new recipe, a new scientific principle and a new mathematical concept.</p>
-					</section>
+				<div className="Home__hero">
+					<div className="Home__modal">
+						<h1>Scientific Cooking for Kids</h1>
+						<section>
+							<p>StemChef was founded with the vision to inspire little ones to love and appreciate science and math through "experimental" cooking.</p>
+							<p>We turn everyday cooking and eating into curiosity-filled culinary experiments, where every class is complete with a new recipe, a new scientific principle and a new mathematical concept.</p>
+							<NavLink to="/programs/after-school" className="Home__cta">Register for Fall Enrichment</NavLink>
+						</section>
+					</div>
 				</div>
 				<div className="Home__container">
 					<div className="Home__science-image"></div>
@@ -48,9 +48,6 @@ class Home extends Component {
 						<p>The working principles behind these rather common activities (along with some other very uncommon recipes we have up our sleeve) will be questioned and understood by your very own little chefs after our program.</p>
 						<p>We don’t promise that they will learn the first law of thermodynamics verbatim, but we do promise they will understand the concept behind it and be thirsty for the second and third and perhaps be enroute to discovering the fifth!</p>
 					</section>
-				</div>
-				<div className="Home__container">
-					<IntroVideo />
 				</div>
       </div>
     );

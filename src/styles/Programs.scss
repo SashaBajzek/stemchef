@@ -6,11 +6,12 @@
 	
 	&__hero {
 		align-items: center;
-		background: url(../images/hero-apple.jpg) no-repeat;
+		background: url(../images/apple-500px.png) no-repeat;
+		background-position: center;
 		background-size: cover;
 		display: flex;
 		justify-content: center;
-		height: 300px;
+		height: 400px;
 		width: 100%;
 	}
 	
@@ -18,12 +19,13 @@
 		background: $overlay-grey;
 		border-radius: 20px;
 		color: $white;
-		height: 250px;
+		height: 300px;
 		padding: 10px 30px;
 		width: 500px;
 	}
 	
 	& h1 {
+		font-size: 32px;
 		margin: 0;
 		text-align: center;
 	}
