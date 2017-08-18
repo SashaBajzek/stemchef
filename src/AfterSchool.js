@@ -19,7 +19,7 @@ class AfterSchool extends Component {
 									<li>Dates: Sept 14 - Oct 19</li>
 								</ul>
 								<p className="AfterSchool__cta AfterSchool__cta1">Price: $195</p>
-								<p className="AfterSchool__cta AfterSchool__cta2"><span className="AfterSchool__cta-underline">REGISTER</span></p>
+								<p className="AfterSchool__cta AfterSchool__cta2"><span className="AfterSchool__cta-underline">REGISTER HERE</span></p>
 							</a>
 							<a href ="https://econnect.sanramon.ca.gov/econnect/Activities/ActivitiesCourseDetails.asp?UseLink=true&cid=120608" className="AfterSchool__class AfterSchool__class-youth">
 								<h4 className="AfterSchool__subheading">City of San Ramon Class 1</h4>
@@ -30,7 +30,7 @@ class AfterSchool extends Component {
 									<li>Dates: Sept 13 - Oct 11</li>
 								</ul>
 								<p className="AfterSchool__cta AfterSchool__cta1">Price: $195</p>
-								<p className="AfterSchool__cta AfterSchool__cta2"><span className="AfterSchool__cta-underline">REGISTER</span></p>
+								<p className="AfterSchool__cta AfterSchool__cta2"><span className="AfterSchool__cta-underline">REGISTER HERE</span></p>
 							</a>
 							<a href ="https://econnect.sanramon.ca.gov/econnect/Activities/ActivitiesCourseDetails.asp?UseLink=true&cid=120609" className="AfterSchool__class AfterSchool__class-youth">
 								<h4 className="AfterSchool__subheading">City of San Ramon Class 2</h4>
@@ -41,7 +41,7 @@ class AfterSchool extends Component {
 									<li>Dates: Sept 15 - Oct 20</li>
 								</ul>
 								<p className="AfterSchool__cta AfterSchool__cta1">Price: $195</p>
-								<p className="AfterSchool__cta AfterSchool__cta2"><span className="AfterSchool__cta-underline">REGISTER</span></p>
+								<p className="AfterSchool__cta AfterSchool__cta2"><span className="AfterSchool__cta-underline">REGISTER HERE</span></p>
 							</a>
 						</section>
 						<section className="AfterSchool__section">
@@ -55,7 +55,7 @@ class AfterSchool extends Component {
 									<li>Dates: Sept 12 - Oct 17</li>
 								</ul>
 								<p className="AfterSchool__cta AfterSchool__cta1">Price: $195</p>
-								<p className="AfterSchool__cta AfterSchool__cta2"><span className="AfterSchool__cta-underline">REGISTER</span></p>
+								<p className="AfterSchool__cta AfterSchool__cta2"><span className="AfterSchool__cta-underline">REGISTER HERE</span></p>
 							</a>
 							<a href ="https://apm.activecommunities.com/danvilleca/Activity_Search/scientific-cooking/8584" className="AfterSchool__class AfterSchool__class-teen">
 								<h4 className="AfterSchool__subheading">Town of Danville Class 2</h4>
@@ -66,7 +66,7 @@ class AfterSchool extends Component {
 									<li>Dates: Sept 11 - Oct 16</li>
 								</ul>
 								<p className="AfterSchool__cta AfterSchool__cta1">Price: $195</p>
-								<p className="AfterSchool__cta AfterSchool__cta2"><span className="AfterSchool__cta-underline">REGISTER</span></p>
+								<p className="AfterSchool__cta AfterSchool__cta2"><span className="AfterSchool__cta-underline">REGISTER HERE</span></p>
 							</a>
 						</section>
 					</div>
