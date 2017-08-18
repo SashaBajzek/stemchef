@@ -35,7 +35,7 @@ class Contact extends Component {
 							<li>Available during the summer vacation and after regular school hours </li>
 							<li>Willing to commute between different locations within Tri-Valley area</li>
 						</ul>
-						<p>If you think this might be a good fit for you, send us your resume and cover letter at info@stemchef.com with the subject line "Volunteer 2017".</p>
+						<p>If you think this might be a good fit for you, send us your resume and cover letter at <a href="mailto:info@stemchef.com" className="Contact__email">info@stemchef.com</a> with the subject line "Volunteer 2017".</p>
 					</div>
 				</div>
       </div>

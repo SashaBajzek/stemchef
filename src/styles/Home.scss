@@ -79,11 +79,11 @@
 		}
 	}
 	
-	&__section:nth-of-type(even) {
+	&__section:nth-of-type(odd) {
 		background-color: $salmon;
 	}
 	
-	&__section:nth-of-type(odd) {
+	&__section:nth-of-type(even) {
 		background-color: $tan;
 	}
 	

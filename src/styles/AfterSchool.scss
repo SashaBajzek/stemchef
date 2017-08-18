@@ -18,14 +18,33 @@
 
 	&__class {
 		align-items: center;
+		color: $blackbrown;
 		display: flex;
 		flex-direction: column;
 		margin-bottom: 30px;
 		padding: 20px 10px;
+		text-decoration: none;
 		
-		& ul{
+		& ul {
 			list-style: none;
 			margin-top: 0;
+		}
+		
+		& .AfterSchool__cta2 {
+			display: none;
+		}
+		
+		&:hover .AfterSchool__cta1,
+		&:focus .AfterSchool__cta1,
+		&:active .AfterSchool__cta1 {
+			display: none;
+		}
+		
+		&:hover .AfterSchool__cta2,
+		&:focus .AfterSchool__cta2,
+		&:active .AfterSchool__cta2 {
+			display: block;
+			font-weight: bold;
 		}
 	}
 	
@@ -42,20 +61,14 @@
 	}
 	
 	&__cta {
-		background-color: $white;
-		border: 1px solid $blackbrown-transparent;
-		border-radius: 2px;
-		color: $blackbrown;
-		font-size: 14px;
+		font-size: 16px;
 		margin: 0 auto;
 		padding: 4px 25px;
 		text-decoration: none;
 	}
 	
-	&__cta:hover,
-	&__cta:focus,
-	&__cta:active {
-		background-color: $teal-light;
+	&__cta-underline {
+		border-bottom: 2px solid $blackbrown;
 	}
 
 }

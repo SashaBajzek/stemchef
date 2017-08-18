@@ -30,9 +30,14 @@
 	}
 	
 	&__container {
-			margin: 0 auto;
-			max-width: $screen-sm-min - 50px;
-		}
+		margin: 0 auto;
+		max-width: $screen-sm-min - 50px;
+	}
+	
+	&__email {
+		color: $blackbrown;
+		text-decoration: none;
+	}
 }
 
 /* Media Sizes */
