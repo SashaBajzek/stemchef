@@ -12,8 +12,7 @@ class Home extends Component {
 					<div className="Home__modal">
 						<h1 className="Home__header">Scientific Cooking for Kids</h1>
 						<section>
-							<p>StemChef was founded with the vision to inspire little ones to love and appreciate science and math through "experimental" cooking.</p>
-							<p>We turn everyday cooking and eating into curiosity-filled culinary experiments, where every class is complete with a new recipe, a new scientific principle and a new mathematical concept.</p>
+							<p>StemChef was founded with the vision to inspire little ones to love and appreciate science and math through "experimental" cooking. We turn everyday cooking and eating into curiosity-filled culinary experiments, where every class is complete with a new recipe, a new scientific principle and a new mathematical concept.</p>
 							<NavLink to="/programs/after-school" className="Home__cta">Register for Fall Enrichment</NavLink>
 						</section>
 					</div>
