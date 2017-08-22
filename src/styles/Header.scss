@@ -43,6 +43,188 @@
 	.Header__logo-text--part2 {
 		color: $tan-dark;
 	}
+	
+	&__menu {
+		align-items: center;
+		background-color: $white;
+		display: flex;
+		flex-direction: column;
+		height: calc(100vh - 66px); /*would not let me use variable $header-height-xs-min */
+		justify-content: space-between;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		transform: translateX(100vw);
+		transition: transform 1s ease;
+		width: 100vw;
+
+	}
+	
+	
+	/* Menu closed --- */
+	&__menu-toggle {
+		background-color: $white;
+		border-bottom: 3px solid $blackbrown;
+		border-left: none;
+		border-right: none;
+		border-top: 3px solid $blackbrown;
+		display: block;
+		height: 17px;
+		margin: 0 auto;
+		outline: none;
+		position: absolute;
+		right: 25px;
+		text-indent: 100vw; /*Push menu text off of screen*/
+		top: 20px;
+		white-space: nowrap;
+		width: 30px;
+	}
+	
+	&__menu-toggle:before,
+	&__menu-toggle:after {
+		background: $blackbrown;
+		content: "";
+		height: 3px;
+		left: 0px;
+		position: absolute;
+		top: 4px;
+		transform: rotate(0);
+		transition: transform 0.25s, background .5s;
+		width: 100%;	
+	}
+	
+	/* Menu open X */
+	
+	&__menuOpen {
+		
+		.Header__menu {
+			transform: translateX(0);
+			transition: transform 1s ease;
+		}
+		
+		.Header__menu-toggle {
+			border: none;
+		}
+
+		.Header__menu-toggle:before,
+		.Header__menu-toggle:after {
+			background: $blackbrown;
+			content: "";
+			height: 3px;
+			left: 0px;
+			position: absolute;
+			top: 7px;
+			width: 100%;	
+		}
+		
+		.Header__menu-toggle:before {
+			transform: rotate(-45deg);
+			transition: transform 0.25s;
+		}
+
+		.Header__menu-toggle:after {
+			transform: rotate(45deg);
+			transition: transform 0.25s;
+		}
+		
+		
+	}
+	
+	
+	
+	
+
+
+	
+	& li {
+		flex-grow: 1;
+	}
+	
+	&__navItem {
+		color: $blackbrown;
+		display: block;
+		font-size: 16px;
+		line-height: 16px;
+		padding: 15px 9px;
+		text-align: center;
+		text-decoration: none;
+		width: 100vw;
+	}
+	
+	&__navItem:hover,
+	&__navItem:focus, {
+		background-color: $salmon-dark;
+		color: $white;
+	}
+	
+	&__navItem--selected {
+		background-color: $salmon-dark;
+		color: $white;
+	}
+	
+	&__fb {
+		background: url('../images/facebook-official.svg') no-repeat;
+		background-position: center;
+		display: block;
+		height: 25px;
+		overflow: hidden;
+		text-indent: 100%;
+		white-space: nowrap;
+		width: 25px;
+	}
+	
+} 
+
+
+
+/*
+
+@import './variables.scss';
+
+.Header {
+	background-color: $white;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	
+	
+	&__container {
+		margin: 0 auto;
+		max-width: $screen-sm-min - 50px;
+	}
+	
+	&__logo {
+		align-items: center;
+		display: flex;
+		justify-content: center;
+		padding: 5px 0 6px;
+		text-decoration: none;
+		
+		&-image {
+			background: url('../images/StemChefLogo.svg') no-repeat;
+			height: 55px;
+			width: 55px;
+		} 
+		
+		&-text {
+			color: $blackbrown;
+			font-family: 'Jacques Francois', serif;
+			font-size: 42px;
+			margin: 0;
+			padding-left: 10px;
+			text-decoration: none;
+		}
+	}
+	
+	.Header__logo-text--part1 {
+		color: $salmon-dark;
+	}
+	
+	.Header__logo-text--part2 {
+		color: $tan-dark;
+	}
 
 	&__menu {
 		display: flex;
@@ -86,8 +268,10 @@
 		white-space: nowrap;
 		width: 25px;
 	}
-	
-} 
+
+*/
+
+
 
 
 
@@ -115,27 +299,43 @@
 				font-size: 50px;
 			}
 		}
+		
+		&__menu-toggle {
+			display: none;
+		}
 	
 		&__menu {
 			align-items: center;
 			background-color: $white;
+			display: flex;
+			flex-direction: row;
+			height: $header-height-sm-min;
+			justify-content: space-between;
 			margin: 0;
+			padding: 0;
+			position: static;
+			transform: translateX(0);  /*Just in case menu toggle is set*/
+			width: 500px;
 		}
 		
 		&__navItem {
 			border-bottom: none;
 			padding: 4px 15px 1px;
+			width: auto;
 		}
 		
 		&__navItem--selected {
 			background-color: $white;
 			border-bottom: none;
+			color: $blackbrown;
 			font-weight: bold;
 		}
 	
 		&__navItem:hover,
 		&__navItem:focus, {
+			background-color: $white;
 			border-bottom: none;
+			color: $blackbrown;
 		}
 		
 		&__underline {
