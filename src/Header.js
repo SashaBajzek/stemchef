@@ -17,16 +17,18 @@ class Header extends Component {
     return (
       <div className={`Header ${menuOpen ? "Header__menuOpen" : "menuClosed"}`}>
 				<div className="Header__container">
-					<NavLink to="/" className="Header__logo">
-						<div className="Header__logo-image"></div>
-						<h1 className="Header__logo-text">
-							<span className="Header__logo-text--part1">Stem</span>
-							<span className="Header__logo-text--part2">Chef</span>
-						</h1>
-					</NavLink>
-					<button className="Header__menu-toggle" onClick={this.toggleMenu}> 
-						Menu
-					</button>
+					<div className="Header__container--mobile">
+						<NavLink to="/" className="Header__logo" onClick={this.closeMenu}>
+							<div className="Header__logo-image"></div>
+							<h1 className="Header__logo-text">
+								<span className="Header__logo-text--part1">Stem</span>
+								<span className="Header__logo-text--part2">Chef</span>
+							</h1>
+						</NavLink>
+						<button className="Header__menu-toggle" onClick={this.toggleMenu}> 
+							Menu
+						</button>
+					</div>
 					<ul className="Header__menu">
 						<li onClick={this.toggleMenu}><NavLink exact to="/" className="Header__navItem" activeClassName="Header__navItem--selected"><span className="Header__underline">HOME</span></NavLink></li>
 						<li onClick={this.toggleMenu}><NavLink to="/programs/after-school" className="Header__navItem" activeClassName="Header__navItem--selected"><span className="Header__underline">PROGRAMS</span></NavLink></li>
