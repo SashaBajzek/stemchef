@@ -55,8 +55,8 @@
 		background-color: $white;
 		display: flex;
 		flex-direction: column;
-		height: calc(100vh - 66px); /*would not let me use variable $header-height-xs-min instead of 66px*/
-		justify-content: space-between;
+		height: 100vh;
+		justify-content: flex-start;
 		list-style: none;
 		margin: 0;
 		padding: 0;
@@ -64,7 +64,6 @@
 		transform: translateX(100vw);
 		transition: transform 1s ease;
 		width: 100vw;
-
 	}
 	
 	
@@ -144,7 +143,6 @@
 	& li {
 		align-items: center;
 		display: flex;
-		flex-grow: 1;
 	}
 	
 	&__navItem {
