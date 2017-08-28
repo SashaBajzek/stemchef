@@ -8,7 +8,18 @@ class Contact extends Component {
 				<div className="Contact__hero">
 					<div className="Contact__modal">
 						<h1>Contact</h1>
-						<p>Form goes here</p>
+						<p>Please use the form below to contact us. We will get back to you as soon as possible.</p>
+						<form action="https://docs.google.com/forms/d/e/1FAIpQLScqEyw4PcA_gKLqr9k4P2ab-r-HU2Sti9zV3r2ABXa8ynEbuQ/formResponse" >
+							<label htmlFor="name">Name</label>
+							<input name="entry.1224692193" type="text" id="name" />
+							<label htmlFor="email">Email</label>
+							<input name="entry.416179720" type="text" id="email" />
+							<label htmlFor="phone">Phone</label>
+							<input name="entry.2048256201" type="text" id="phone" />
+							<label htmlFor="message">Message</label>
+							<textarea name="entry.543787284" type="text" id="message"></textarea>
+							<input className="Contact__button" type="submit" value="Submit" />
+						</form>
 					</div>
 				</div>
 				<div className="Contact__container">
