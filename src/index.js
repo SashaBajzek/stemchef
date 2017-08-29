@@ -9,8 +9,6 @@ import Home from './Home';
 import OurStory from './OurStory';
 import Programs from './Programs';
 import ScrollToTop from './ScrollToTop';
-/*import SummerCamp from './SummerCamp';*/
-/*import WinterProgram from './WinterProgram';*/
 
 import {
 	BrowserRouter as Router,

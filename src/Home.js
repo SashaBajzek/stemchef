@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import IntroVideo from './IntroVideo';
 import { NavLink } from 'react-router-dom';
 import './styles/Home.scss';
 

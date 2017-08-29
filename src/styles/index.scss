@@ -1,14 +1,5 @@
 @import './variables.scss';
 
-@font-face {
-    font-family: 'love_ya_like_a_sister_snormal';
-    src: url('loveyalikeasistersolid-webfont.woff2') format('woff2'),
-         url('loveyalikeasistersolid-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 * {
 	box-sizing: border-box;
 }
@@ -48,12 +39,4 @@ body {
 	display: flex;
 	flex-direction: column;
 }
-
-/*
-h1,
-h2,
-h3 {
-	font-family: 'love_ya_like_a_sister_snormal', sans-serif;
-}
-*/
 
