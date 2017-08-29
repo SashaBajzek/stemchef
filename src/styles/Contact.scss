@@ -22,14 +22,6 @@
 		height: 300px;
 		padding: 10px 30px;
 		width: 500px;
-		
-		iframe {
-			display: none;
-		}
-		
-		label {
-			display: block;
-		}
 	}
 	
 	& h1 {
@@ -45,6 +37,17 @@
 	&__email {
 		color: $blackbrown;
 		text-decoration: none;
+	}
+	
+	&__fb {
+		background: url('../images/facebook-official.svg') no-repeat;
+		background-position: center;
+		display: block;
+		height: 40px;
+		overflow: hidden;
+		text-indent: 100%;
+		white-space: nowrap;
+		width: 40px;
 	}
 }
 
