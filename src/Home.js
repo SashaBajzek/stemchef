@@ -23,20 +23,18 @@ class Home extends Component {
 					</section>
 					<section className="Home__section">
 						<h2>WHO?</h2>
-						<p>Curiosity and learning knows no age boundaries. However, our program is designed for kids ages 5 – 10 and teens ages 11-15. Classes are divided to accommodate for the age and skill level of the individual kids.</p>
+						<p>Curiosity and learning knows no age boundaries. However, our program is designed for kids ages 5 – 10 and teens ages 11-15. Classes are divided to accommodate for the age and skill level of each child.</p>
 					</section>
 					<section className="Home__section">
 						<h2>WHY?</h2>
-						<p>Textbook learning gets mundane, but there is a way for kids to have fun and learn at the same time!</p>
-						<p>Imagine teaching a 6 year old Calculus? Or Organic chemistry? Or Thermodynamics?</p>
-						<p>Now imagine this being done by a team of five and seven year old scientists in chef hats while building yummy recipes and  getting messy. StemChef makes learning both fun and tasty.</p>
+						<p>Textbook learning gets mundane, especially for young children.</p>
+						<p>StemChef makes science and math both fun and relatable as children learn through following yummy recipes and getting messy.</p>
 					</section>
 					<section className="Home__section">
 						<h2>HOW?</h2>
 						<p>Think about simple everyday kitchen happenings:</p>
-						<p>Cooking an egg; Baking a cupcake; Making an ice-pop</p>
-						<p>The working principles behind these rather common activities will be questioned and understood by your very own little chefs after our program.</p>
-						<p>We don’t promise that they will learn the first law of thermodynamics verbatim, but we do promise they will understand the concept behind it and be thirsty for the second and third and perhaps be enroute to discovering the fifth!</p>
+						<p>Cooking an egg, Baking a cupcake, Making an ice-pop</p>
+						<p>The working principles behind these rather common activities will be explored and understood by your very own little chefs as they solve yummy challenges mathematically while whipping up delicious edible experiments.</p>
 					</section>
 				</div>
       </div>
