@@ -6,7 +6,7 @@
 	
 	&__hero {
 		align-items: center;
-		background: url(../images/apple-500px.png) no-repeat;
+		background: url(../images/apple-mobile.png) no-repeat;
 		background-position: center;
 		background-size: cover;
 		display: flex;
@@ -29,7 +29,6 @@
 		margin: 0;
 		text-align: center;
 	}
-
 	
 }
 
@@ -39,5 +38,11 @@
 @media (min-width: $screen-sm-min) {
 	.Programs {
 		margin-top: $header-height-sm-min;
+		
+		&__hero {
+			background: url(../images/apple-500px.png) no-repeat;
+			background-position: center;
+			background-size: cover;
+		}
 	}
 }

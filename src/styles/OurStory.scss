@@ -6,7 +6,7 @@
 	
 	&__hero {
 		align-items: center;
-		background: url(../images/popsicle-500px.png) no-repeat;
+		background: url(../images/popsicle-mobile.png) no-repeat;
 		background-position: center;
 		background-size: cover;
 		display: flex;
@@ -50,6 +50,12 @@
 @media (min-width: $screen-sm-min) {
 	.OurStory {
 		margin-top: $header-height-sm-min;
+		
+			&__hero {
+			background: url(../images/popsicle-500px.png) no-repeat;
+			background-position: center;
+			background-size: cover;
+		}
 	}
 }
 
