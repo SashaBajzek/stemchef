@@ -8,7 +8,7 @@ class OurStory extends Component {
 				<div className="OurStory__hero">
 					<div className="OurStory__modal">
 						<h1>Our Story</h1>
-						<h2>From a Bio-scientist to a new Mom to a scientist-chef...</h2>
+						<p>From a Bio-scientist to a new Mom to a scientist-chef, it all began at the dinner table.</p>
 					</div>
 				</div>
 				<div className="OurStory__container">
