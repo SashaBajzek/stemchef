@@ -21,10 +21,10 @@ class OurStory extends Component {
 				</div>
 				<div className="OurStory__container">
 					<section>
-					<h2>BIO</h2>
-					<div className="OurStory__image"></div>
-					<p>Ashie Bhandiwad holds a PhD in Engineering from Dartmouth College. In her previous life, Ashie worked at UC Berkeley trying to save the world - well almost: she worked at the Energy Biosciences Institute, UCB campus to produce renewable energy.</p>
-					<p>Ashie lives with her husband and five year old daughter in San Ramon and never misses going to the Saturday Farmer's market.</p>
+						<h2>BIO</h2>
+						<div className="OurStory__image"></div>
+						<p>Ashie Bhandiwad holds a PhD in Engineering from Dartmouth College. In her previous life, Ashie worked at UC Berkeley trying to save the world - well almost: she worked at the Energy Biosciences Institute, UCB campus to produce renewable energy.</p>
+						<p>Ashie lives with her husband and five year old daughter in San Ramon and never misses going to the Saturday Farmer's market.</p>
 					</section>
 				</div>
       </div>

@@ -195,12 +195,12 @@
 		
 			&-image {
 				background: url('../StemChefLogo.svg') no-repeat;
-				height: 65px;
-				width: 65px;
+				height: 60px;
+				width: 60px;
 			} 
 
 			&-text {
-				font-size: 50px;
+				font-size: 46px;
 			}
 		}
 		
@@ -219,14 +219,14 @@
 			padding: 0;
 			position: static;
 			transform: translateX(0);  /*Just in case menu toggle is set*/
-			width: 500px;
+			width: 400px;
 		}
 		
 		&__navItem {
 			border-bottom: none;
 			font-size: 16px;
 			line-height: 16px;
-			padding: 4px 15px 1px;
+			padding: 4px 5px 1px;
 			width: auto;
 		}
 		
@@ -269,6 +269,27 @@
 	.Header {
 		&__container {
 			max-width: $screen-md-min - 50px;
+		}
+		
+		&__logo {
+		
+			&-image {
+				height: 65px;
+				width: 65px;
+			} 
+
+			&-text {
+				font-size: 50px;
+			}
+		}
+		
+		&__menu {
+			width: 500px;
+		}
+		
+		&__navItem {
+			padding: 4px 15px 1px;
+			width: auto;
 		}
 	}
 }
