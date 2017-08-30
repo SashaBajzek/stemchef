@@ -41,9 +41,9 @@
 		background: url(../images/me.jpeg) no-repeat;
 		background-position: center center;
 		background-size: contain;
-		height: 250px;
-		margin: 0 auto;
-		width: 400px;
+		height: 200px;
+		margin: 20px auto;
+		max-width: 300px;
 	}
 }
 
@@ -73,6 +73,13 @@
 		&__container {
 			padding: 20px 60px;
 		}
+		
+		&__image {
+			float: left;
+			height: 195px;
+			margin: 16px 30px 20px 0;
+			width: 250px;
+		}
 	}
 }
 
@@ -82,7 +89,13 @@
 @media (min-width: $screen-md-min) {
 	.OurStory {
 		&__container {
-			max-width: $screen-md-min - 50px;
+			max-width: $screen-md-min - 150px;
+		}
+		
+		&__image {
+			height: 234px;
+			margin: 16px 30px 20px 0;
+			width: 300px;
 		}
 	}
 }
@@ -92,8 +105,6 @@
 
 @media (min-width: $screen-md-min) {
 	.OurStory {
-		&__container {
-			max-width: $screen-md-min;
-		}
+
 	}
 }

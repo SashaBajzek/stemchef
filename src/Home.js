@@ -18,23 +18,43 @@ class Home extends Component {
 				</div>
 				<div className="Home__container">
 					<section className="Home__section">
-						<h2>WHAT?</h2>
-						<p>A new approach to STEM (Science, Technology, Engineering, and Mathematics) learning for kids through food and cooking.</p>
+						<div className="Home__content">
+							<div className="Home__text">
+								<h2>WHAT?</h2>
+								<p>A new approach to STEM (Science, Technology, Engineering, and Mathematics) learning for kids through food and cooking.</p>
+							</div>
+							<div className="Home__image Home__chefs-image"></div>
+						</div>
 					</section>
 					<section className="Home__section">
-						<h2>WHO?</h2>
-						<p>Curiosity and learning knows no bounds. However, our program is designed for kids ages 5 – 10 and teens ages 11-15. Classes are divided to accommodate for the age and skill level of each child.</p>
+						<div className="Home__content">
+							<div className="Home__text">
+								<h2>WHO?</h2>
+								<p>Curiosity and learning knows no bounds. However, our program is designed for kids ages 5 – 10 and teens ages 11-15. Classes are divided to accommodate for the age and skill level of each child.</p>
+							</div>
+							<div className="Home__image Home__kids-image"></div>
+						</div>
 					</section>
 					<section className="Home__section">
-						<h2>WHY?</h2>
-						<p>Textbook learning gets mundane, especially for young children.</p>
-						<p>StemChef makes science and math both fun and relatable as children learn through following yummy recipes and getting messy.</p>
+						<div className="Home__content">
+							<div className="Home__text">
+								<h2>WHY?</h2>
+								<p>Textbook learning gets mundane, especially for young children.</p>
+								<p>StemChef makes science and math both fun and relatable as children learn through following yummy recipes and getting messy.</p>
+							</div>
+							<div className="Home__image Home__syringe-image"></div>
+						</div>
 					</section>
 					<section className="Home__section">
-						<h2>HOW?</h2>
-						<p>Think about simple everyday kitchen happenings:</p>
-						<p>Cooking an egg, Baking a cupcake, Making an ice-pop</p>
-						<p>The working principles behind these rather common activities will be explored and understood by your very own little chefs. They will be solving yummy challenges mathematically while whipping up delicious edible experiments.</p>
+						<div className="Home__content">
+							<div className="Home__text">
+								<h2>HOW?</h2>
+								<p>Think about simple everyday kitchen happenings:</p>
+								<p>Cooking an egg, Baking a cupcake, Making an ice-pop</p>
+								<p>The working principles behind these rather common activities will be explored and understood by your very own little chefs. They will be solving yummy challenges mathematically while whipping up delicious edible experiments.</p>
+							</div>
+							<div className="Home__image Home__baking-image"></div>
+						</div>
 					</section>
 				</div>
       </div>
