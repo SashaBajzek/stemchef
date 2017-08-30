@@ -23,7 +23,7 @@ class Home extends Component {
 					</section>
 					<section className="Home__section">
 						<h2>WHO?</h2>
-						<p>Curiosity and learning knows no age boundaries. However, our program is designed for kids ages 5 – 10 and teens ages 11-15. Classes are divided to accommodate for the age and skill level of each child.</p>
+						<p>Curiosity and learning knows no bounds. However, our program is designed for kids ages 5 – 10 and teens ages 11-15. Classes are divided to accommodate for the age and skill level of each child.</p>
 					</section>
 					<section className="Home__section">
 						<h2>WHY?</h2>
@@ -34,7 +34,7 @@ class Home extends Component {
 						<h2>HOW?</h2>
 						<p>Think about simple everyday kitchen happenings:</p>
 						<p>Cooking an egg, Baking a cupcake, Making an ice-pop</p>
-						<p>The working principles behind these rather common activities will be explored and understood by your very own little chefs as they solve yummy challenges mathematically while whipping up delicious edible experiments.</p>
+						<p>The working principles behind these rather common activities will be explored and understood by your very own little chefs. They will be solving yummy challenges mathematically while whipping up delicious edible experiments.</p>
 					</section>
 				</div>
       </div>

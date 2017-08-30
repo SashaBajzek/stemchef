@@ -37,6 +37,8 @@
 	&__container {
 		margin: 0 auto;
 		max-width: $screen-sm-min - 50px;
+		padding: 20px 30px;
+		text-align: justify;
 	}
 	
 	&__email {
@@ -86,6 +88,10 @@
 		&__fb {
 			height: 40px;
 			width: 40px;
+		}
+		
+		&__container {
+			padding: 20px 60px;
 		}
 	}
 }

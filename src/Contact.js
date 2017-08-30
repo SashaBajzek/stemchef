@@ -24,19 +24,14 @@ class Contact extends Component {
 					<div className="Jobs">
 						<h2>Looking for volunteers with a passion for teaching!</h2>
 						<ul>
-							<li>You are fulfilled by challenging the next-gen kids intellectually</li>
+							<li>You are fulfilled by challenging kids intellectually</li>
 							<li>You get immense satisfaction in demonstrating hard-to-explain concepts in a funny and quirky manner</li>
 							<li>You love food and cooking</li>
-							<li>You are not allergic to learning new & novel concepts and/or recipes</li>
+							<li>You are a formally or informally trained educator looking for flexible work hours</li>
+							<li>You are available during the summer vacation and/or after regular school hours </li>
+							<li>You are willing to commute between different locations within the Tri-Valley area</li>
 						</ul>
-						<p>If you answered yes to over 50% questions, we would like to talk to you!</p>
-						<h3>Who you are:</h3>
-						<ul>
-							<li>Formally or informally trained educator looking for flexible work hours</li>
-							<li>Available during the summer vacation and after regular school hours </li>
-							<li>Willing to commute between different locations within Tri-Valley area</li>
-						</ul>
-						<p>If you think this might be a good fit for you, send us your resume and cover letter at:  <a href="mailto:info@stemchef.com" className="Contact__email">info@stemchef.com</a></p>
+						<p>If you think you would be a good fit, we would love to hear from you! Send us your resume and cover letter at:  <a href="mailto:info@stemchef.com" className="Contact__email">info@stemchef.com</a>.</p>
 					</div>
 				</div>
       </div>

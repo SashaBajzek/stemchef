@@ -53,7 +53,7 @@
 	
 	&__container {
 		margin: 0 auto;
-		max-width: $screen-sm-min - 50px;
+		max-width: 100%;
 	}
 	
 	& h1 {
@@ -68,7 +68,7 @@
 	
 	&__section {
 		margin: 0 auto;
-		max-width: $screen-sm-min - 100px;
+		max-width: 100%;
 		padding: 20px 30px;
 		
 		h2,
@@ -122,6 +122,10 @@
 	.Home {
 		margin-top: $header-height-sm-min;
 		
+		&__container {
+			max-width: $screen-sm-min - 50px;
+		}
+		
 		&__hero {
 			background: url(../images/cookies-500px.png) no-repeat;
 			background-position: center;
@@ -145,6 +149,7 @@
 		
 		&__section {
 			margin: 0 auto 30px;
+			max-width: $screen-sm-min - 100px;
 		}
 
 		&__section:first-child {
