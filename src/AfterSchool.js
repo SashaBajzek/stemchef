@@ -29,7 +29,7 @@ class AfterSchool extends Component {
 									<li>Time: 4:30pm - 6:00pm every Wednesday</li>
 									<li>Dates: Sept 13 - Oct 11</li>
 								</ul>
-								<p className="AfterSchool__cta AfterSchool__cta1">Price: $195</p>
+								<p className="AfterSchool__cta AfterSchool__cta1">Price: $150</p>
 								<p className="AfterSchool__cta AfterSchool__cta2"><span className="AfterSchool__cta-underline">REGISTER HERE</span></p>
 							</a>
 							<a href ="https://econnect.sanramon.ca.gov/econnect/Activities/ActivitiesCourseDetails.asp?UseLink=true&cid=120609" className="AfterSchool__class AfterSchool__class-youth">
@@ -40,7 +40,7 @@ class AfterSchool extends Component {
 									<li>Time: 3:10 pm - 4:40pm every Friday</li>
 									<li>Dates: Sept 15 - Oct 20</li>
 								</ul>
-								<p className="AfterSchool__cta AfterSchool__cta1">Price: $195</p>
+								<p className="AfterSchool__cta AfterSchool__cta1">Price: $125</p>
 								<p className="AfterSchool__cta AfterSchool__cta2"><span className="AfterSchool__cta-underline">REGISTER HERE</span></p>
 							</a>
 						</section>
