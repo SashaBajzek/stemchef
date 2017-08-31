@@ -1,5 +1,5 @@
-@import './variables.scss';
-@import './mixins.scss';
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
 
 .OurStory {
 	flex: 1 0 auto; /* Sticky Footer */
@@ -7,7 +7,7 @@
 	
 	&__hero {
 		align-items: center;
-		background: url(../images/popsicle-mobile.png) no-repeat;
+		background: url(./popsicle-mobile.png) no-repeat;
 		background-position: center;
 		background-size: cover;
 		display: flex;
@@ -38,7 +38,7 @@
 	}
 	
 	&__image {
-		background: url(../images/me.jpeg) no-repeat;
+		background: url(./me.jpeg) no-repeat;
 		background-position: center center;
 		background-size: contain;
 		height: 200px;
@@ -55,7 +55,7 @@
 		margin-top: $header-height-sm-min;
 		
 			&__hero {
-			background: url(../images/popsicle-500px.png) no-repeat;
+			background: url(./popsicle-500px.png) no-repeat;
 			background-position: center;
 			background-size: cover;
 			height: 400px;

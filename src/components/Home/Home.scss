@@ -1,5 +1,5 @@
-@import './variables.scss';
-@import './mixins.scss';
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
 
 .Home {
 	flex: 1 0 auto; /* Sticky Footer */
@@ -7,7 +7,7 @@
 	
 	&__hero {
 		align-items: center;
-		background: url(../images/cookies-mobile.png) no-repeat;
+		background: url(./cookies-mobile.png) no-repeat;
 		background-position: center;
 		background-size: cover;
 		display: flex;
@@ -94,25 +94,25 @@
 	}
 	
 	&__chefs-image {
-		background: url(../images/kids--large_hats.jpeg) no-repeat;
+		background: url(./kids--large_hats.jpeg) no-repeat;
 		background-position: center center;
 		background-size: cover;
 	}
 	
 	&__kids-image {
-		background: url(../images/kids--celebrating.jpeg) no-repeat;
+		background: url(./kids--celebrating.jpeg) no-repeat;
 		background-position: right center;
 		background-size: cover;
 	}
 	
 	&__syringe-image {
-		background: url(../images/kids--syringe.jpeg) no-repeat;
+		background: url(./kids--syringe.jpeg) no-repeat;
 		background-position: center center;
 		background-size: cover;
 	}
 
 	&__baking-image {
-		background: url(../images/baking.jpg) no-repeat;
+		background: url(./baking.jpg) no-repeat;
 		background-position: top center;
 		background-size: cover;
 	}
@@ -130,7 +130,7 @@
 		}
 		
 		&__hero {
-			background: url(../images/cookies-500px.png) no-repeat;
+			background: url(./cookies-500px.png) no-repeat;
 			background-position: center;
 			background-size: cover;
 			height: 400px;

@@ -1,21 +1,9 @@
-@import './variables.scss';
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
 
 * {
 	box-sizing: border-box;
 }
-
-/*
-#root,
-[data-reactroot] {
-	height: 100%;
-}
-
-html,
-body {
-	height: 100%;
-}
-
-*/
 
 html,
 body {

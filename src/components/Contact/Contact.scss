@@ -1,5 +1,5 @@
-@import './variables.scss';
-@import './mixins.scss';
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
 
 .Contact {
 	flex: 1 0 auto; /* Sticky Footer */
@@ -7,7 +7,7 @@
 	
 	&__hero {
 		align-items: center;
-		background: url(../images/cakepops-mobile.png) no-repeat;
+		background: url(./cakepops-mobile.png) no-repeat;
 		background-position: center;
 		background-size: cover;
 		display: flex;
@@ -57,7 +57,7 @@
 	}
 	
 	&__fb {
-		background: url('../images/facebook-official.svg') no-repeat;
+		background: url('../../images/facebook-official.svg') no-repeat;
 		background-position: center;
 		background-size: cover;
 		display: block;
@@ -87,7 +87,7 @@
 		margin-top: $header-height-sm-min;
 		
 		&__hero {
-			background: url(../images/cakepops-500px.png) no-repeat;
+			background: url(./cakepops-500px.png) no-repeat;
 			background-position: center;
 			background-size: cover;
 			height: 400px;

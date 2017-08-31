@@ -1,11 +1,12 @@
-@import './variables.scss';
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
 
 .Footer {
 	background-color: $brown;
 	padding: 8px 0;
 	
 	&__logo-image {
-			background: url('../StemChefLogo.svg') no-repeat;
+			background: url('../../images/StemChefLogo.svg') no-repeat;
 			margin: 0 auto;
 			height: 40px;
 			width: 40px;

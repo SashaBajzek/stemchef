@@ -1,4 +1,5 @@
-@import './variables.scss';
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
 
 .Header {
 	background-color: $white;
@@ -27,7 +28,7 @@
 		text-decoration: none;
 		
 		&-image {
-			background: url('../images/StemChefLogo.svg') no-repeat;
+			background: url('../../images/StemChefLogo.svg') no-repeat;
 			height: 55px;
 			width: 55px;
 		} 
@@ -165,7 +166,7 @@
 	}
 	
 	&__fb {
-		background: url('../images/facebook-official.svg') no-repeat;
+		background: url('../../images/facebook-official.svg') no-repeat;
 		background-position: center;
 		display: block;
 		height: 40px;
@@ -194,7 +195,7 @@
 		&__logo {
 		
 			&-image {
-				background: url('../StemChefLogo.svg') no-repeat;
+				background: url('../../images/StemChefLogo.svg') no-repeat;
 				height: 60px;
 				width: 60px;
 			} 

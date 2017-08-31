@@ -1,6 +1,7 @@
-@import './variables.scss';
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
 
-.AfterSchool {
+.ProgramFall {
 	flex: 1 0 auto; /* Sticky Footer */
 	
 	&__container {
@@ -66,26 +67,26 @@
 /* Media Sizes */
 
 @media (min-width: $screen-sm-min) {
-	.AfterSchool {
+	.ProgramFall {
 		&__class {
 			border-radius: 20px;
 			margin-bottom: 30px;
 			padding: 30px 50px;
 			
 			
-			& .AfterSchool__cta2 {
+			& .ProgramFall__cta2 {
 				display: none;
 			}
 			
-			&:hover .AfterSchool__cta1,
-			&:focus .AfterSchool__cta1,
-			&:active .AfterSchool__cta1 {
+			&:hover .ProgramFall__cta1,
+			&:focus .ProgramFall__cta1,
+			&:active .ProgramFall__cta1 {
 				display: none;
 			}
 
-			&:hover .AfterSchool__cta2,
-			&:focus .AfterSchool__cta2,
-			&:active .AfterSchool__cta2 {
+			&:hover .ProgramFall__cta2,
+			&:focus .ProgramFall__cta2,
+			&:active .ProgramFall__cta2 {
 				display: block;
 				font-weight: bold;
 			}
@@ -96,7 +97,7 @@
 /* Desktop Screen Size */
 
 @media (min-width: $screen-md-min) {
-	.AfterSchool {
+	.ProgramFall {
 		&__container {
 			max-width: $screen-md-min - 50px;
 		}
@@ -112,7 +113,7 @@
 /* XL Desktop Screen Size */
 
 @media (min-width: $screen-md-min) {
-	.AfterSchool {
+	.ProgramFall {
 		&__container {
 			max-width: $screen-md-min;
 		}
