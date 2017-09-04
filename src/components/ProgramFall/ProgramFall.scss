@@ -3,13 +3,11 @@
 
 .ProgramFall {
 	flex: 1 0 auto; /* Sticky Footer */
+	margin: 0 auto;
+	max-width: $screen-sm-min - 50px;
 	
-	&__container {
-		margin: 0 auto;
-		max-width: $screen-sm-min - 50px;
-	}
-	
-	&__title {
+	h2,
+	h3 {
 		text-align: center;
 	}
 	
@@ -47,7 +45,7 @@
 		background-color: $tan;
 	}
 	
-	&__subheading {
+	h4 {
 		margin: 0;
 	}
 	
@@ -98,9 +96,7 @@
 
 @media (min-width: $screen-md-min) {
 	.ProgramFall {
-		&__container {
-			max-width: $screen-md-min - 50px;
-		}
+		max-width: $screen-md-min - 50px;
 		
 		&__content {
 			display: flex;
@@ -114,8 +110,6 @@
 
 @media (min-width: $screen-md-min) {
 	.ProgramFall {
-		&__container {
-			max-width: $screen-md-min;
-		}
+		max-width: $screen-md-min;
 	}
 }

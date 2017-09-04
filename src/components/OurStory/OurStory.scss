@@ -25,12 +25,13 @@
 		}
 	}
 	
-	& h1 {
+	h1 {
+		font-size: 32px;
 		margin: 0;
 		text-align: center;
 	}
 	
-	&__container {
+	&__section {
 		margin: 0 auto;
 		max-width: $screen-sm-min - 50px;
 		padding: 20px 30px;
@@ -54,7 +55,7 @@
 	.OurStory {
 		margin-top: $header-height-sm-min;
 		
-			&__hero {
+		&__hero {
 			background: url(./popsicle-500px.png) no-repeat;
 			background-position: center;
 			background-size: cover;
@@ -70,7 +71,7 @@
 			}
 		}
 		
-		&__container {
+		&__section {
 			padding: 20px 60px;
 		}
 		
@@ -88,7 +89,7 @@
 
 @media (min-width: $screen-md-min) {
 	.OurStory {
-		&__container {
+		&__section {
 			max-width: $screen-md-min - 150px;
 		}
 		
@@ -97,14 +98,5 @@
 			margin: 16px 30px 20px 0;
 			width: 300px;
 		}
-	}
-}
-
-
-/* XL Desktop Screen Size */
-
-@media (min-width: $screen-md-min) {
-	.OurStory {
-
 	}
 }

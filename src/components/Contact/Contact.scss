@@ -39,7 +39,7 @@
 		text-align: center;
 	}
 	
-	&__container {
+	&__section {
 		margin: 0 auto;
 		max-width: $screen-sm-min - 50px;
 		padding: 20px 30px;
@@ -110,7 +110,7 @@
 			width: 40px;
 		}
 		
-		&__container {
+		&__section {
 			padding: 20px 60px;
 		}
 	}
@@ -121,7 +121,7 @@
 
 @media (min-width: $screen-md-min) {
 	.Contact {
-		&__container {
+		&__section {
 			max-width: $screen-md-min - 50px;
 		}
 	}
@@ -132,7 +132,7 @@
 
 @media (min-width: $screen-md-min) {
 	.Contact {
-		&__container {
+		&__section {
 			max-width: $screen-md-min;
 		}
 	}
