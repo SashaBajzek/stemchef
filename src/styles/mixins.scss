@@ -4,7 +4,7 @@
  * ========================================================================== */
 
 @mixin modal--mobile {
-	background: $overlay-grey;
+	background: $overlay-grey-mobile;
 	color: $blackbrown;
 	display: flex;
 	flex-direction: column;
@@ -16,6 +16,7 @@
 }
 
 @mixin modal--non-mobile {
+	background: $overlay-grey-non-mobile;
 	border-radius: 20px;
 	height: 300px;
 	padding: 10px 30px;
